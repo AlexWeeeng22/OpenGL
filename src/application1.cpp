@@ -11,6 +11,9 @@
 int main(void)
 {
     GLFWwindow* window;
+    
+    std::cout << "Hello Motherfuckers, im your dear father~" << std::endl;
+
 
     /* Initialize the library */
     if (!glfwInit())
