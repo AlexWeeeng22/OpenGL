@@ -14,7 +14,7 @@ int main(void)
 {
     GLFWwindow* window;
     
-    std::cout << "Hello Motherfuckers, im your dear father~" << std::endl;
+    std::cout << " === Hello Motherfuckers, im your dear father~ ===" << std::endl;
 
 
 
@@ -39,13 +39,10 @@ int main(void)
         std::cout << "error" << std::endl;
     }
 
-
-    unsigned int a;
-    glGenBuffers(1, &a);
-
-
     /* Show GL version we are using */
-    std::cout << glGetString(GL_VERSION) << std::endl;
+    std::cout << "GLEW_version: " << glGetString(GL_VERSION) << std::endl;
+
+
 
     float positions[6] = {
         -0.5f, -0.5f,
